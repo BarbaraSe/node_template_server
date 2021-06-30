@@ -3,6 +3,7 @@ import logger from "loglevel";
 import { startServer } from "./api/start";
 import { startDB } from "./db";
 import "colors";
+console.log("Barbara");
 
 //load environment variables
 dotenv.config({ path: "./config/config.env" });
